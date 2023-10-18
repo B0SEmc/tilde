@@ -36,25 +36,18 @@
   const CONFIG = {
     commandPathDelimiter: '/',
     commandSearchDelimiter: ' ',
-    defaultSearchTemplate: 'https://duckduckgo.com/?q={}',
+    defaultSearchTemplate: 'https://search.brave.com/search?q={}',
     openLinksInNewTab: true,
     suggestionLimit: 4,
   };
 
   const COMMANDS = new Map([
     ['a', { name: 'AI', url: 'https://sdk.vercel.ai' }],
-    ['c', { name: 'Calendar', url: 'https://calendar.google.com' }],
-    ['d', { name: 'Drive', url: 'https://drive.google.com' }],
-    ['f', { name: 'Figma', url: 'https://www.figma.com/files/recent' }],
     ['g', { name: 'GitHub', url: 'https://github.com' }],
     ['i', { name: 'Discord', url: 'https://discord.com/channels/@me' }],
-    ['k', { name: 'Keep', url: 'https://keep.google.com' }],
-    ['m', { name: 'Mail', url: 'https://mail.proton.me/u/0/inbox' }],
-    ['n', { name: 'Notion', url: 'https://www.notion.so' }],
-    ['o', { name: 'Coursera', url: 'https://www.coursera.org' }],
-    ['s', { name: 'Supabase', url: 'https://app.supabase.com/projects' }],
-    ['t', { name: 'DeepL', url: 'https://www.deepl.com/en/translator' }],
-    ['v', { name: 'Vercel', url: 'https://vercel.com/dashboard' }],
+    ['m', { name: 'Mail', url: 'https://mail.google.com/mail/u/0/#inbox' }],
+    ['r', { name: 'Rust Book', url: 'https://rust-book.cs.brown.edu/' }],
+    ['t', { name: 'DeepL', url: 'https://www.deepl.com/fr/translator' }],
     ['x', { name: '𝕏', url: 'https://x.com' }],
     [
       'y',
